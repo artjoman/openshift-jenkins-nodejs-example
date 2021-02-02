@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('Hello, Artjoms!'));
 console.log('Successfully registered path /');
 
 app.get('/health', (req, res) => res.send('Hello World is healthy! I\'m running in ' + process.env.ENVIRONMENT_NAME));
