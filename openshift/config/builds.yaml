@@ -37,5 +37,5 @@ objects:
         from:
           kind: ImageStreamTag
           name: s2i-openshift-alpine-nodejs:latest
-          namespace: default
+          namespace: myproject
       type: Source

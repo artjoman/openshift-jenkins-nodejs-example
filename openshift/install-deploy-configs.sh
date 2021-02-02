@@ -24,11 +24,11 @@ if [ "$continue" == "y" ]; then
         SERVICE_NAME='openshift-jenkins-nodejs-example'
     fi
 
-    echo 'Service Git Url: (default: https://github.com/davinryan/openshift-jenkins-nodejs-example.git)'
+    echo 'Service Git Url: (default: https://github.com/artjoman/openshift-jenkins-nodejs-example.git)'
     read SERVICE_GIT_URL
 
     if [ -z "$SERVICE_GIT_URL" ]; then
-        SERVICE_GIT_URL='https://github.com/davinryan/openshift-jenkins-nodejs-example.git'
+        SERVICE_GIT_URL='https://github.com/artjoman/openshift-jenkins-nodejs-example.git'
     fi
 
     echo 'Environment: (default: dev)'
